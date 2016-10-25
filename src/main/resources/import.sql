@@ -1,0 +1,8 @@
+insert into department(name, salary_min_range, salary_max_range) values ('department 1', 100, 200)
+insert into department(name, salary_min_range, salary_max_range) values ('department 2', 200, 300)
+insert into employee(manager_name, name, salary, department_id) values ('manager 1', 'employee 1', 100, 1)
+insert into employee(manager_name, name, salary, department_id) values ('manager 2', 'employee 2', 200, 1)
+insert into employee(manager_name, name, salary, department_id) values ('manager 1', 'employee 3', 300, 2)
+insert into employee(manager_name, name, salary, department_id) values ('manager 2', 'employee 4', 400, 2)
+insert into employee(manager_name, name, salary, department_id) values ('manager 3', 'employee 5', 400, 2)
+insert into employee(manager_name, name, salary, department_id) values ('manager 3', 'employee 6', 400, 2)
